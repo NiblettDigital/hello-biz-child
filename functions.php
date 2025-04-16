@@ -27,7 +27,7 @@ function hello_biz_child_scripts_styles() {
 add_action( 'wp_enqueue_scripts', 'hello_biz_child_scripts_styles', 20 );
 
 /**
- * Include Custom Site Options
+ * Include Custom Site Theme Options
  */
 if( defined('APP_PATH') && is_dir(APP_PATH) )
     if(file_exists(APP_PATH.'/data/config/theme'))
