@@ -32,3 +32,4 @@ add_action( 'wp_enqueue_scripts', 'hello_biz_child_scripts_styles', 20 );
 if( defined('APP_PATH') && is_dir(APP_PATH) )
     if(file_exists(APP_PATH.'/data/config/theme'))
         include APP_PATH.'/data/config/theme';
+
